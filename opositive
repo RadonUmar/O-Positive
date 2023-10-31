@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>O Positive - Donate Blood, Save Lives</title>
+
+    <!-- Bootstrap core CSS with custom styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #how-it-works .row {
+    margin-bottom: 20px;
+}
+
+#how-it-works i {
+    font-size: 3em;
+}
+
+#how-it-works h4 {
+    margin: 10px 0;
+}
+
+#how-it-works p {
+    font-size: 1.1em;
+}
+
+#sign-up {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sign-up h3 {
+    margin-bottom: 20px;
+}
+
+#sign-up p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">O Positive</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/webslib-main/signup.php">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <!-- Header Section -->
+<header class="bg-white text-white text-center mt-5">
+    <img src="logo.png" alt="O Positive Logo" class="mb-4" style="max-width: 1500px;">
+
+</header>
+    
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>How It Works</h3>
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fas fa-user-plus fa-3x text-danger"></i>
+                    </div>
+                    <div class="col-10">
+                        <h4>Sign Up</h4>
+                        <p>Create an account on O Positive to get started.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <i class="fas fa-bell fa-3x text-danger"></i>
+                    </div>
+                    <div class="col-10">
+                        <h4>Receive Notifications</h4>
+                        <p>Get instant alerts when a hospital needs your blood type.</p>
+                    </div>
+                </div>
+                <!-- Add more steps with icons as needed -->
+            </div>
+            <div class="col-md-6">
+                <div id="map" style="height: 300px;"></div>
+            </div>
+        </div>
+
+        <div id="sign-up" class="mt-5">
+            <h3>Sign Up Today</h3>
+            <p>Join our community of blood donors and help make a positive impact. Sign up now!</p>
+            <a href="/webslib-main/signup.php" class="btn btn-danger">Sign Up</a>
+        </div>
+    </div>
+    <br>
+    <footer class="py-4 bg-light">
+        <div class="container text-center">
+            <p class="mb-0">© 2023 O Positive. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap core JavaScript and FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+    <!-- Your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
